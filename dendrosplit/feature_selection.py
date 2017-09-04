@@ -7,23 +7,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import itertools
 
-import rpy2.robjects as ro
-from rpy2.robjects.numpy2ri import numpy2ri
+# import rpy2.robjects as ro
+# from rpy2.robjects.numpy2ri import numpy2ri
 
-# Some functions for scoring how good a split is
-def sigclust(X,y):
-    if len(np.unique(y)) != 2: 
-        print 'ERROR: can only have 2 unique labels'
-        return
-    y = str_labels_to_ints(y)
-    ro.r('library(sigclust)')
-    ro.r('''g<-function(X,y){
-                p = sigclust(X,100,labflag=1,label=y,icovest=3)
-                return(p@pval)
-            }''')
-    g = ro.globalenv['g']
-    p = g(numpy2ri(X),numpy2ri(y))
-    return np.nan_to_num(-np.log10(p[0]))
+# # Some functions for scoring how good a split is
+# def sigclust(X,y):
+#     if len(np.unique(y)) != 2: 
+#         print 'ERROR: can only have 2 unique labels'
+#         return
+#     y = str_labels_to_ints(y)
+#     ro.r('library(sigclust)')
+#     ro.r('''g<-function(X,y){
+#                 p = sigclust(X,100,labflag=1,label=y,icovest=3)
+#                 return(p@pval)
+#             }''')
+#     g = ro.globalenv['g']
+#     p = g(numpy2ri(X),numpy2ri(y))
+#     return np.nan_to_num(-np.log10(p[0]))
 
 # Feature selection using random forest 
 def skRandomForest(X,Y):
