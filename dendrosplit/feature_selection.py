@@ -168,7 +168,7 @@ def save_more_highly_expressed_genes_in_one_clust(X,genes,y,x1=None,x2=None,num_
         if x1 is None or x2 is None: print 'NEED TO PASS IN x1, x2 FOR PLOTTING'
     if save_name is not None: 
         f = open(save_name+'_cluster_features.txt','w')
-        print >> f, 'cluster\tgene\tpvalue\tmean_of_log_expr\tfold_change_of_log_expr'
+        print >> f, 'cluster\tgene\tpvalue\tmean_of_expr\tfold_change_of_expr'
     for c in np.unique(y):
         c1 = X[y == c,:]
         c2 = X[y != c,:]
@@ -210,7 +210,7 @@ def pairwise_cluster_comparison(X,genes,y,x1=None,x2=None,num_genes=20,verbose=T
         if x1 is None or x2 is None: print 'NEED TO PASS IN x1, x2 FOR PLOTTING'
     if save_name is not None:
         f = open(save_name+'_pairwise_cluster_features.txt','w')
-        print >> f, 'c1\tc2\tgene\tpvalue\tlarger_clust\tfold_change_of_log_exp_for_larger_clust'
+        print >> f, 'c1\tc2\tgene\tpvalue\tlarger_clust\tfold_change_of_exp_for_larger_clust'
     for (i,j) in itertools.combinations(np.unique(y),2):
         labels_ij = np.logical_or(y==i,y==j)
         gene_ranks,gene_scores,score = feature_selector(X[labels_ij,:],y[labels_ij],return_score=True)
