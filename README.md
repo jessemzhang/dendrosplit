@@ -16,7 +16,12 @@ In our paper we analyzed 9 publicly available single-cell RNA-Seq datasets:
 8. Birey et al.: [paper](https://www.nature.com/nature/journal/v545/n7652/full/nature22330.html), [data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93811)
 9. Zheng et al.: [paper](http://www.biorxiv.org/content/biorxiv/early/2016/07/26/065912.full.pdf), [data](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/fresh_68k_pbmc_donor_a)
  
-We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Please see the Jupyter notebooks in the [Figures](https://github.com/jessemzhang/dendrosplit/tree/master/figures) directory for the code used to reproduce all the figures in the paper. Some [wrapper code](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_pipeline.py) used in the notebooks is also provided.
+We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Please see the Jupyter notebooks in the [Figures](https://github.com/jessemzhang/dendrosplit/tree/master/figures) directory for the code used to reproduce all the figures in the paper. Some [wrapper code](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_pipeline.py) used in the notebooks is also provided. For each dataset, processing requires 4 inputs: 
+
+1. `dataset_expr.txt` (or `dataset_expr_h5` for larger datasets):  a $N$-by-$M$ matrix of gene/transcript expression values where $N$ and $M$ are the numbers of cells and features, respectively 
+2. `dataset_labels.txt`: a set of labels for all the cells
+3. `dataset_features.txt`:  a set of feature names, and 
+4. `dataset_reducedim_coor.txt`: a 2D representation of the data for visualizing results
 
 ## Dependencies
 
