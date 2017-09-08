@@ -1,6 +1,5 @@
 import sys,time
 import numpy as np
-sys.path.insert(0, '/home/jessez/clustering_by_recursive_dendrogram_splitting/')
 from dendrosplit import split,merge,utils
 from scipy.sparse import coo_matrix
 
