@@ -20,7 +20,7 @@ We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Ple
 
 1. `DATAPREFIX_expr.txt` (or `DATAPREFIX_expr.h5` for larger datasets):  a matrix of gene/transcript expression values where the rows correspond to cells and the columns correspond to features
 2. `DATAPREFIX_labels.txt`: a set of labels for all the cells
-3. `DATAPREFIX_features.txt`:  a set of feature names, and 
+3. `DATAPREFIX_features.txt`:  a set of feature names
 4. `DATAPREFIX_reducedim_coor.txt`: a 2D representation of the data for visualizing results
 
 ## Dependencies
