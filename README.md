@@ -1,6 +1,6 @@
 # DendroSplit
 
-This repository provides the full source code for the DendroSplit framework described in the paper the paper "[An Interpretable Framework for Clustering Single-Cell RNA-Seq Datasets](http://www.biorxiv.org/)" by Zhang, Fan, Fan, Rosenfeld, and Tse. It also contains the scripts necessary for reproducing the results in the paper.
+This repository provides the full source code for the DendroSplit framework described in the paper "[An Interpretable Framework for Clustering Single-Cell RNA-Seq Datasets](http://www.biorxiv.org/)" by Zhang, Fan, Fan, Rosenfeld, and Tse. It also contains the scripts necessary for reproducing the results in the paper.
 
 ## Overview
 
@@ -20,7 +20,7 @@ We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Ple
 
 ## Dependencies
 
-The code has the following dependencies (Python modules):
+DendroSplit has the following dependencies (Python modules):
 * numpy (1.12.1)
 * scipy (0.19.0)
 * matplotlib (1.5.3)
@@ -42,7 +42,7 @@ sys.path.insert(0, PATH_TO_DENDROSPLIT)
 from dendrosplit import split,merge,utils
 ```
 
-A tutorial for using the main DendroSplit functions is given in the [tutorial Jupyter notebook](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_tutorial.ipynb).
+A tutorial for using the main DendroSplit functions is given in the [tutorial Jupyter notebook](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_tutorial.ipynb). Please refer to the Jupyter notebooks used to generate the figures in the paper for more examples.
 
 ## License
 DendroSplit is licensed and distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
