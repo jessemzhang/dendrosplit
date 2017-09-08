@@ -16,13 +16,33 @@ In our paper we analyzed 9 publicly available single-cell RNA-Seq datasets:
 8. Birey et al.: [paper](https://www.nature.com/nature/journal/v545/n7652/full/nature22330.html), [data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93811)
 9. Zheng et al.: [paper](http://www.biorxiv.org/content/biorxiv/early/2016/07/26/065912.full.pdf), [data](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/fresh_68k_pbmc_donor_a)
  
-We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/).
+We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Please see the Jupyter notebooks in the [Figures](https://github.com/jessemzhang/dendrosplit/tree/master/figures) directory for the code used to reproduce all the figures in the paper.
 
-## Preliminaries
+## Dependencies
+
+The code has the following dependencies (Python modules):
+* numpy (1.12.1)
+* scipy (0.19.0)
+* matplotlib (1.5.3)
+* sklearn (0.18.1)
+* networkx (1.11)
+* community
 
 ## Instructions
 
-## Method
+Clone this repo into your local drive.
+
+```git clone https://github.com/jessemzhang/dendrosplit.git```
+
+Import DendroSplit by adding the following lines of code to your Python script:
+
+```
+import sys
+sys.path.insert(0, PATH_TO_DENDROSPLIT)
+from dendrosplit import split,merge,utils
+```
+
+A tutorial for using the main DendroSplit functions is given in the [tutorial Jupyter notebook](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_tutorial.ipynb).
 
 ## License
-DendroSplit is license and distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+DendroSplit is licensed and distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
