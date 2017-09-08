@@ -18,7 +18,7 @@ In our paper we analyzed 9 publicly available single-cell RNA-Seq datasets:
  
 We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Please see the Jupyter notebooks in the [Figures](https://github.com/jessemzhang/dendrosplit/tree/master/figures) directory for the code used to reproduce all the figures in the paper. Some [wrapper code](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_pipeline.py) used in the notebooks is also provided. For each dataset, processing requires 4 inputs which are saved in directory `DATAPREFIX/` as: 
 
-1. `DATAPREFIX_expr.txt` (or `DATAPREFIX_expr.h5` for larger datasets):  a $N$-by-$M$ matrix of gene/transcript expression values where $N$ and $M$ are the numbers of cells and features, respectively 
+1. `DATAPREFIX_expr.txt` (or `DATAPREFIX_expr.h5` for larger datasets):  a matrix of gene/transcript expression values where the rows correspond to cells and the columns correspond to features
 2. `DATAPREFIX_labels.txt`: a set of labels for all the cells
 3. `DATAPREFIX_features.txt`:  a set of feature names, and 
 4. `DATAPREFIX_reducedim_coor.txt`: a 2D representation of the data for visualizing results
