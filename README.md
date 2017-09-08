@@ -33,6 +33,8 @@ DendroSplit has the following dependencies (Python modules):
 * networkx (1.11)
 * community
 
+The [tutorial Jupyter notebook](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_tutorial.ipynb) also uses tsne (0.1.7) for finding a low-dimensional embedding of the example data.
+
 ## Instructions
 
 Clone this repo into your local directory.
