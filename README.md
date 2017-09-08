@@ -35,7 +35,7 @@ DendroSplit has the following dependencies (Python modules):
 
 ## Instructions
 
-Clone this repo into your local drive.
+Clone this repo into your local directory.
 
 ```git clone https://github.com/jessemzhang/dendrosplit.git```
 
