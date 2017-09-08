@@ -49,4 +49,4 @@ DendroSplit is licensed and distributed under a [Creative Commons Attribution-No
 
 ## Method
 
-![method](https://github.com/jessemzhang/dendrosplit/blob/master/method.pdf)
+![method](https://github.com/jessemzhang/dendrosplit/blob/master/method.png)
