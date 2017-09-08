@@ -16,7 +16,7 @@ In our paper we analyzed 9 publicly available single-cell RNA-Seq datasets:
 8. Birey et al.: [paper](https://www.nature.com/nature/journal/v545/n7652/full/nature22330.html), [data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93811)
 9. Zheng et al.: [paper](http://www.biorxiv.org/content/biorxiv/early/2016/07/26/065912.full.pdf), [data](https://support.10xgenomics.com/single-cell-gene-expression/datasets/1.1.0/fresh_68k_pbmc_donor_a)
  
-We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Please see the Jupyter notebooks in the [Figures](https://github.com/jessemzhang/dendrosplit/tree/master/figures) directory for the code used to reproduce all the figures in the paper.
+We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Please see the Jupyter notebooks in the [Figures](https://github.com/jessemzhang/dendrosplit/tree/master/figures) directory for the code used to reproduce all the figures in the paper. Some [wrapper code](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_pipeline.py) used in the notebooks is also provided.
 
 ## Dependencies
 
