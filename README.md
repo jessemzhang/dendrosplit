@@ -54,6 +54,5 @@ A tutorial for using the main DendroSplit functions is given in the [tutorial Ju
 ## License
 DendroSplit is licensed and distributed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-## Method
 
 ![method](https://github.com/jessemzhang/dendrosplit/blob/master/method.png)
