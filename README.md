@@ -1,6 +1,6 @@
 # DendroSplit
 
-This repository provides the full source code for the DendroSplit framework described in the paper "[An Interpretable Framework for Clustering Single-Cell RNA-Seq Datasets](http://www.biorxiv.org/)" by Zhang, Fan, Fan, Rosenfeld, and Tse. It also contains the scripts necessary for reproducing the results in the paper.
+This repository provides the full source code for the DendroSplit framework described in the paper "[An Interpretable Framework for Clustering Single-Cell RNA-Seq Datasets](https://www.biorxiv.org/content/early/2017/09/21/191254.full.pdf)" by Zhang, Fan, Fan, Rosenfeld, and Tse. It also contains the scripts necessary for reproducing the results in the paper. Please see [this Bitbucket repository](https://bitbucket.org/CRSwDev/dendrosplit/overview) for the version of the package used and maintained by BD Genomics. 
 
 ## Overview
 
