@@ -37,16 +37,14 @@ The [tutorial Jupyter notebook](https://github.com/jessemzhang/dendrosplit/blob/
 
 ## Instructions
 
-Clone this repo into your local directory.
+DendroSplit can be installed via pip:
 
-```git clone https://github.com/jessemzhang/dendrosplit.git```
+```pip install dendrosplit``` 
 
-Import DendroSplit by adding the following lines of code to your Python script:
+Import DendroSplit by adding the following line of code to your Python script:
 
 ```
-import sys
-sys.path.insert(0, PATH_TO_DENDROSPLIT)
-from dendrosplit import split,merge,utils
+from dendrosplit import split, merge, utils
 ```
 
 A tutorial for using the main DendroSplit functions is given in the [tutorial Jupyter notebook](https://github.com/jessemzhang/dendrosplit/blob/master/dendrosplit_tutorial.ipynb). Please refer to the Jupyter notebooks used to generate the figures in the paper for more examples.
