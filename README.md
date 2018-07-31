@@ -25,7 +25,7 @@ We also analyzed some [synthetic datasets](http://cs.uef.fi/sipu/datasets/). Ple
 
 ## Dependencies
 
-DendroSplit is written in Python 2.7 has the following dependencies (Python modules):
+DendroSplit is written in Python 2.7 and has the following dependencies (Python modules):
 * numpy (1.12.1)
 * scipy (0.19.0)
 * matplotlib (1.5.3)
